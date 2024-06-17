@@ -7,3 +7,7 @@ class Hello:
     def tprint(self):
         tprint(self.word)
 
+
+from class1 import MyClass
+myobj = MyClass('Bear')
+myobj.tprint()
