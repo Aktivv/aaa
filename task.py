@@ -1,3 +1,6 @@
 from art import tprint
-tprint("PYTHON")
+
+class Hello:
+    print('Hello World!')
+    tprint("PYTHON")
 
